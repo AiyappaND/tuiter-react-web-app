@@ -1,4 +1,4 @@
-# twitter-react-web-app
+# tuiter-react-web-app
 =======
 # Getting Started with Create React App
 
