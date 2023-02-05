@@ -1,11 +1,6 @@
-.wd-explore-body {
-    background-color: black;
-    border: rgb(47, 51, 54);
-}
 
-.wd-left_pad {
-    position: relative;
-    left: 14px;
+.wd-left-pad {
+    padding-left: 14px;
 }
 
 .wd-search-bar input[type=text] {
@@ -24,21 +19,6 @@
     float: left;
     align-content: center;
     padding: 15px 15px 15px 35px;
-}
-
-.wd-float-left {
-    float: left;
-}
-.wd-float-right {
-    float: right;
-}
-
-.wd-float-done {
-    clear: both;
-}
-
-.wd-grid-row {
-    clear: both;
 }
 
 .wd-grid-col-sixth-page {
