@@ -29,6 +29,10 @@
 .wd-float-left {
     float: left;
 }
+.wd-float-right {
+    float: right;
+}
+
 .wd-float-done {
     clear: both;
 }
@@ -54,3 +58,25 @@
     padding: 16px;
 }
 
+.wd-topic{
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+.wd-topic-main {
+    color: white;
+}
+
+.wd-tuit-image {
+    height: 100px;
+    border-radius: 25px;
+    margin-right: 16px;
+}
+
+.wd-grid-col-two-thirds-page {
+    width: 66%;
+}
+
+.wd-grid-col-one-thirds-page {
+    width: 33%;
+}
