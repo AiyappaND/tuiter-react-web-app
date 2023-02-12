@@ -1,0 +1,5 @@
+.thumbnail-custom {
+    width: 72px; /* You can set the dimensions to whatever you want */
+    height: 72px;
+    object-fit: cover;
+}
