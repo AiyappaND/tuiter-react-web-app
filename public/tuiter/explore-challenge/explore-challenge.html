@@ -12,50 +12,51 @@
 <body>
     <div class="container mt-1">
         <div class="row gx-4">
-            <div class="col-xxl-2 col-xl-2 col-lg-1 col-md-2 col-sm-2 col-2 p-1">
+            <div class="col-xxl-2 col-xl-2 col-lg-1 col-md-2 col-sm-2 col-2 p-0 pe-lg-3">
 
-                <div class="mb-3 list-group">
-                    <div class="list-group-item">
-                        <i class="fas fa-hand-peace"></i>
+                <div class="mb-3 p-1 list-group">
+                    <div class="list-group-item border-0 mb-2">
+                        <i class="fas fa-hand-peace" style="color: dodgerblue"></i>
                     </div>
-                    <a href="#" class="list-group-item list-group-item-action active">
+
+                    <a href="#" class="list-group-item mb-2 border-0 list-group-item-action active-custom">
                         <i class="fas fa-hashtag"></i>
-                        <div class="d-none d-xl-inline m-lg-1">Explore</div>
+                        <div class="d-none d-xl-inline m-lg-2">Explore</div>
                     </a>
 
-                    <a href="#" class="list-group-item list-group-item-action">
+                    <a href="#" class="list-group-item mb-2 border-0 list-group-item-action">
                         <i class="fas fa-home"></i>
-                        <div class="d-none d-xl-inline m-lg-1">Home</div>
+                        <div class="d-none d-xl-inline m-lg-2">Home</div>
                     </a>
 
-                    <a href="#" class="list-group-item list-group-item-action">
+                    <a href="#" class="list-group-item mb-2 border-0 list-group-item-action">
                         <i class="fas fa-envelope"></i>
-                        <div class="d-none d-xl-inline m-lg-1">Messages</div>
+                        <div class="d-none d-xl-inline m-lg-2">Messages</div>
                     </a>
 
-                    <a href="#" class="list-group-item list-group-item-action">
+                    <a href="#" class="list-group-item mb-2 border-0 list-group-item-action">
                         <i class="fas fa-bell"></i>
-                        <div class="d-none d-xl-inline m-lg-1">Notifications</div>
+                        <div class="d-none d-xl-inline m-lg-2">Notifications</div>
                     </a>
 
-                    <a href="#" class="list-group-item list-group-item-action">
+                    <a href="#" class="list-group-item mb-2 border-0 list-group-item-action">
                         <i class="fas fa-bookmark"></i>
-                        <div class="d-none d-xl-inline m-lg-1">Bookmarks</div>
+                        <div class="d-none d-xl-inline m-lg-2">Bookmarks</div>
                     </a>
 
-                    <a href="#" class="list-group-item list-group-item-action">
+                    <a href="#" class="list-group-item mb-2 border-0 list-group-item-action">
                         <i class="fas fa-list"></i>
-                        <div class="d-none d-xl-inline m-lg-1">Lists</div>
+                        <div class="d-none d-xl-inline m-lg-2">Lists</div>
                     </a>
 
-                    <a href="#" class="list-group-item list-group-item-action">
+                    <a href="#" class="list-group-item mb-2 border-0 list-group-item-action">
                         <i class="fas fa-user"></i>
-                        <div class="d-none d-xl-inline m-lg-1">Profile</div>
+                        <div class="d-none d-xl-inline m-lg-2">Profile</div>
                     </a>
 
-                    <a href="#" class="list-group-item list-group-item-action">
+                    <a href="#" class="list-group-item mb-2 border-0 list-group-item-action">
                         <i class="fas fa-circle-notch"></i>
-                        <div class="d-none d-xl-inline m-lg-1">More</div>
+                        <div class="d-none d-xl-inline m-lg-2">More</div>
                     </a>
                 </div>
 
@@ -67,43 +68,44 @@
             </div>
 
 
-            <div class="col-xxl-6 col-xl-6 col-lg-7 col-md-10 col-sm-10 col-10 p-1">
+            <div class="col-xxl-6 col-xl-6 col-lg-7 col-md-10 col-sm-10 col-10 p-0 pe-lg-3">
                 <form>
                     <div class="flex-row d-flex align-items-center mb-2">
-                        <div class="flex-grow-1 flex-row d-flex align-items-center border rounded-pill py-1">
+                        <div class="flex-grow-1 flex-row d-flex align-items-center
+                        border rounded-pill py-1 searchbar-custom">
                             <label for="explore-search" class="px-2">
-                                <i class="fas fa-search"></i>
+                                <i class="m-lg-2 fas fa-search"></i>
                             </label>
                             <input type="text" id="explore-search"
-                                   class="flex-grow-1 border-0 rounded-pill ps-2" placeholder="Search Tuiter"/>
+                                   class="flex-grow-1 border-0 rounded-pill ps-2 searchbar-custom" placeholder="Search Tuiter"/>
                         </div>
                         <div class="ps-4">
                             <a href="explore-settings.html">
-                                <i class="fas fa-2x align-middle fa-cog"></i>
+                                <i class="p-1 fas fa-2x align-middle fa-cog" style="color: gray"></i>
                             </a>
                         </div>
                     </div>
                 </form>
 
-                <div class="nav nav-tabs mb-0">
+                <div class="navbar nav-tabs mb-0">
                     <div class="nav-item">
-                        <a class="nav-link active" href="for-you.html">For you</a>
+                        <a class="nav-link-custom nav-link-active-custom" href="for-you.html">For you</a>
                     </div>
 
                     <div class="nav-item">
-                        <a class="nav-link" href="trending.html">Trending</a>
+                        <a class="nav-link nav-link-custom" href="trending.html">Trending</a>
                     </div>
 
                     <div class="nav-item">
-                        <a class="nav-link" href="news.html">News</a>
+                        <a class="nav-link nav-link-custom" href="news.html">News</a>
                     </div>
 
                     <div class="nav-item">
-                        <a class="nav-link" href="sports.html">Sports</a>
+                        <a class="nav-link nav-link-custom" href="sports.html">Sports</a>
                     </div>
 
                     <div class="nav-item d-none d-md-block">
-                        <a class="nav-link" href="entertainment.html">Entertainment</a>
+                        <a class="nav-link nav-link-custom" href="entertainment.html">Entertainment</a>
                     </div>
                 </div>
 
@@ -114,145 +116,167 @@
                     </div>
                 </a>
 
-                <div class="border p-2">
-                    <div class="row">
-                        <div class="col-9">
-                            <div class="fs-6 text-secondary">Sports</div>
-                            <div class="fs-6">
-                                <span class="fw-bold">BestSports.com</span>
-                                <i class="fas fa-check-circle"></i>
-                                <span class="text-secondary m-lg-1">2h</span>
+                <div class="border mt-2">
+                    <div class="p-2 mt-2">
+                        <div class="row">
+                            <div class="col-9">
+                                <div class="fs-6 text-secondary">Sports - Trending</div>
+                                <div class="fs-6">
+                                    <span class="fw-bold">BestSports.com</span>
+                                    <i class="fas fa-check-circle"></i>
+                                    <span class="text-secondary m-lg-1">2h</span>
+                                </div>
+                                <div class="fw-bold">
+                                    Global Warming set to make Ice Hockey extinct
+                                </div>
                             </div>
-                            <div class="fw-bold">
-                                Global Warming set to make Ice Hockey extinct
+                            <div class="col-3">
+                                <i class="float-end fas fa-ellipsis-h"></i>
                             </div>
                         </div>
-                        <div class="col-3">
-                            <img class="float-end rounded w-75" src="../assets/img/global-warming.jpg" alt=""/>
+                    </div>
+
+                    <div class="p-2 mt-2">
+                        <div class="row">
+                            <div class="col-9">
+                                <div>
+                                    <span class="fw-bold">CNN</span>
+                                    <i class="fas fa-check-circle"></i>
+                                    <span class="text-secondary m-lg-1">4h</span>
+                                </div>
+                                <div class="fw-bold">
+                                    Opinion: Are geese going to take over the world?
+                                </div>
+                                <div class="text-secondary">
+                                    <i class="float-start fas fa-arrow-circle-up m-lg-2"></i>
+                                    Promoted by Geese Resistance Front
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-2 mt-2">
+                        <div class="row">
+                            <div class="col-9">
+                                <div class="text-secondary">Home Equipment</div>
+                                <div>
+                                    <span class="fw-bold">Chainsaws</span>
+                                </div>
+                                <div class="text-secondary">
+                                    Trending with
+                                    <span class="link-info"> Somebody </span>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <i class="float-end fas fa-ellipsis-h"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-2 mt-2">
+                        <div class="row">
+                            <div class="col-9">
+                                <div class="text-secondary">Self Defense</div>
+                                <div>
+                                    <span class="fw-bold">Machine Guns</span>
+                                    <i class="fas fa-check-circle"></i>
+                                    <span class="text-secondary m-lg-1">1h</span>
+                                </div>
+                                <div class="text-secondary">
+                                    123K Tuits
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <i class="float-end fas fa-ellipsis-h"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="border p-2">
-                    <div class="row">
-                        <div class="col-9">
-                            <div>
-                                <span class="fw-bold">CNN</span>
-                                <i class="fas fa-check-circle"></i>
-                                <span class="text-secondary m-lg-1">4h</span>
-                            </div>
-                            <div class="fw-bold">
-                                Opinion: Are geese going to take over the world?
-                            </div>
-                            <div class="text-secondary">
-                                256k Tuits
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <img class="float-end rounded w-75" src="../assets/img/geese.jpg" alt=""/>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="border p-2">
-                    <div class="row">
-                        <div class="col-9">
-                            <div class="text-secondary">Home Equipment</div>
-                            <div>
-                                <span class="fw-bold">Chainsaws</span>
-                            </div>
-                            <div class="text-secondary">
-                                125K Tuits
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <img class="float-end rounded w-75" src="../assets/img/chainsaw.jpg" alt=""/>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="border p-2">
-                    <div class="row">
-                        <div class="col-9">
-                            <div class="text-secondary">Self Defense</div>
-                            <div>
-                                <span class="fw-bold">Machine Guns</span>
-                                <i class="fas fa-check-circle"></i>
-                                <span class="text-secondary m-lg-1">1h</span>
-                            </div>
-                            <div class="text-secondary">
-                                123K Tuits
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <img class="float-end rounded w-75" src="../assets/img/rambo.webp" alt=""/>
-                        </div>
-                    </div>
-                </div>
             </div>
 
 
-            <div class="col-xxl-4 col-xl-4 col-lg-4 d-none d-lg-block p-1">
+            <div class="col-xxl-4 col-xl-4 col-lg-4 d-none d-lg-block p-0">
                 <div class="list-group">
-                    <div class="list-group-item fw-bold fs-sm">
+                    <div class="list-group-item fw-bold fs-sm list-group-item-custom">
                         Who to follow
                     </div>
-
-                    <div class="list-group-item p-lg-2 d-flex flex-row align-items-center">
+                    <div class="list-group-item list-group-item-custom p-lg-2 d-flex flex-row align-items-center">
                         <div class="pe-xxl-2 pe-xl-2 pe-lg-1">
                             <img class="rounded-circle thumbnail-custom"
                                  src="../assets/img/onion.webp" alt=""/>
                         </div>
                         <div class="flex-grow-1 px-xxl-3 px-xl-3">
-                            <div class="fw-bold">Onion <i class="fas fa-check-circle"></i></div>
+                            <div class="fw-bold">
+                                Onion <i class="m-lg-1 fas fa-check-circle" style="color: dodgerblue"></i>
+                            </div>
                             <div class="text-secondary">@RealNewsOnion</div>
                         </div>
                         <div class="align-items-lg-end">
-                            <a class="btn btn-primary rounded-pill px-3" href="#">Follow</a>
+                            <a class="btn btn-dark rounded-pill px-3" href="#">Follow</a>
                         </div>
                     </div>
 
-                    <div class="list-group-item p-lg-2 d-flex flex-row align-items-center">
+                    <div class="list-group-item list-group-item-custom p-lg-2 d-flex flex-row align-items-center">
                         <div class="pe-xxl-2 pe-xl-2 pe-lg-1">
                             <img class="rounded-circle thumbnail-custom"
                                  src="../assets/img/alien.webp" alt=""/>
                         </div>
                         <div class="flex-grow-1 px-xxl-3 px-xl-3">
-                            <div class="fw-bold">AlienNews<i class="fas fa-check-circle"></i></div>
+                            <div class="fw-bold">
+                                AlienNews<i class="m-lg-1 fas fa-check-circle" style="color: dodgerblue"></i>
+                            </div>
                             <div class="text-secondary">@alienwatch</div>
                         </div>
                         <div>
-                            <a class="btn btn-primary rounded-pill px-3" href="#">Follow</a>
+                            <a class="btn btn-dark rounded-pill px-3" href="#">Follow</a>
                         </div>
                     </div>
 
-                    <div class="list-group-item p-lg-2 d-flex flex-row align-items-center">
+                    <div class="list-group-item list-group-item-custom p-lg-2 d-flex flex-row align-items-center">
                         <div class="pe-xxl-2 pe-xl-2 pe-lg-1">
                             <img class="rounded-circle thumbnail-custom"
                                  src="../assets/img/Palpatine_1.webp" alt=""/>
                         </div>
                         <div class="flex-grow-1 px-xxl-3 px-xl-3">
-                            <div class="fw-bold">The Empire<i class="fas fa-check-circle"></i></div>
+                            <div class="fw-bold">
+                                The Empire<i class="m-lg-1 fas fa-check-circle" style="color: dodgerblue"></i>
+                            </div>
                             <div class="text-secondary">@theempireofficial</div>
+                            <div class="text-secondary">
+                                <i class="float-start fas fa-arrow-circle-up m-lg-2"></i>
+                                Promoted
+                            </div>
                         </div>
                         <div>
-                            <a class="btn btn-primary rounded-pill px-3" href="#">Follow</a>
+                            <a class="btn btn-dark rounded-pill px-3" href="#">Follow</a>
                         </div>
                     </div>
 
-                    <div class="list-group-item p-lg-2 d-flex flex-row align-items-center">
+                    <div class="list-group-item list-group-item-custom p-lg-2 d-flex flex-row align-items-center">
                         <div class="pe-xxl-2 pe-xl-2 pe-lg-1">
                             <img class="rounded-circle thumbnail-custom"
                                  src="../assets/img/flat-earth.jpg" alt=""/>
                         </div>
                         <div class="flex-grow-1 px-xxl-3 px-xl-3 ">
-                            <div class="fw-bold">Flat Earth<i class="fas fa-check-circle"></i></div>
+                            <div class="fw-bold">
+                                Flat Earth<i class="m-lg-1 fas fa-check-circle" style="color: dodgerblue"></i>
+                            </div>
                             <div class="text-secondary">@flatearthsociety</div>
                         </div>
                         <div>
-                            <a class="btn btn-primary rounded-pill px-3" href="#">Follow</a>
+                            <a class="btn btn-dark rounded-pill px-3" href="#">Follow</a>
                         </div>
                     </div>
+
+                    <div class="list-group-item list-group-item-custom p-lg-2 d-flex float-start align-items-center">
+                        <span class="link-primary">Show more</span>
+                    </div>
+
+                    <div class="p-lg-2 d-flex float-start align-items-center">
+                        <span class="text-secondary">Terms of Service @ Tuiter 2023</span>
+                    </div>
+
                 </div>
             </div>
         </div>
