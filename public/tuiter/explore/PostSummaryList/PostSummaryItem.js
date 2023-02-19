@@ -2,7 +2,7 @@ const PostSummaryItem = (post) => {
 
     return (`
     
-        <div class="border p-2">
+        <div class="border p-2 border-secondary">
             <div class="row">
                 <div class="col-9">
                     <div class="fs-6 text-secondary">${post.topic}</div>
