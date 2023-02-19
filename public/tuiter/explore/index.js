@@ -7,7 +7,7 @@ function exploreComponent() {
       <div class="container mt-1">
         <div class="row gx-4">
            <div class="col-xxl-2 col-xl-2 col-lg-1 col-md-2 col-sm-2 col-2 p-1">
-                ${NavigationSidebar()}
+                ${NavigationSidebar("explore")}
             </div>
             
            <div class="col-xxl-6 col-xl-6 col-lg-7 col-md-10 col-sm-10 col-10 p-1">
