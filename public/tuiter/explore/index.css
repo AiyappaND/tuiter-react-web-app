@@ -1,0 +1,62 @@
+
+.wd-left-pad {
+    padding-left: 14px;
+}
+
+.wd-search-bar input[type=text] {
+    float: left;
+    width: 70%;
+    border-radius: 50px;
+    background-color: darkgrey;
+    color: white;
+    text-align: left;
+    padding-left: 15px;
+    height: 50px;
+    font-size: large;
+}
+
+.wd-search-icon {
+    float: left;
+    align-content: center;
+    padding: 15px 15px 15px 35px;
+}
+
+.wd-grid-col-sixth-page {
+    width: 14%;
+    float: left;
+}
+
+.wd-highlight {
+    color: rgb(29,161,242) !important;
+    border-bottom : solid rgb(29,161,242) !important;
+}
+
+.wd-grid-links {
+    text-decoration: none;
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+    padding: 16px;
+}
+
+.wd-topic{
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+.wd-topic-main {
+    color: white;
+}
+
+.wd-tuit-image {
+    height: 100px;
+    border-radius: 25px;
+    margin-right: 16px;
+}
+
+.wd-grid-col-two-thirds-page {
+    width: 66%;
+}
+
+.wd-grid-col-one-thirds-page {
+    width: 33%;
+}
