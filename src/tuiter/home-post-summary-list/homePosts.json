@@ -1,0 +1,27 @@
+[
+  {
+    "_id": 123,
+    "user": "CNN",
+    "handle": "@cnnofficial",
+    "userIcon": "logo-fake1.jpg",
+    "time": "2h",
+    "title": "Global Warming set to make Ice Hockey extinct",
+    "image": "global-warming.jpg",
+    "content": "Tragic news for followers of ice hockey, as latest reports suggest Global Warming might put an end to the beloved sport. We remain invested along with hundreds of other New Englanders and Canadians to see if this iconic sport has finally breathed its last.",
+    "comments": 15,
+    "retuits": 150,
+    "likes": 50
+  },
+  {
+    "_id": 234,
+    "user": "CNBC",
+    "handle": "@cnbcofficial",
+    "userIcon": "logo-fake2.jpg",
+    "time": "3h",
+    "title": "Pandemic triggers mass purchases of firearms",
+    "image": "rambo.webp",
+    "content": "",
+    "comments": 154,
+    "retuits": 10,
+    "likes": 510
+  }]
