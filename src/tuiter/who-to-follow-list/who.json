@@ -1,0 +1,26 @@
+[
+  {
+    "_id": 123,
+    "avatarIcon": "onion.webp",
+    "userName": "Onion",
+    "handle": "RealNewsOnion"
+  },
+  {
+    "_id": 234,
+    "avatarIcon": "alien.webp",
+    "userName": "AlienNews",
+    "handle": "alienwatch"
+  },
+  {
+    "_id": 345,
+    "avatarIcon": "Palpatine_1.webp",
+    "userName": "The Empire",
+    "handle": "theempireofficial"
+  },
+  {
+    "_id": 456,
+    "avatarIcon": "flat-earth.jpg",
+    "userName": "Flat Earth",
+    "handle": "flatearthsociety"
+  }
+]

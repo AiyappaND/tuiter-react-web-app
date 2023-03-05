@@ -1,0 +1,38 @@
+[
+  {
+    "_id": 123,
+    "topic": "Sports",
+    "userName": "BestSports.com",
+    "time": "2h",
+    "title": "Global Warming set to make Ice Hockey extinct",
+    "image": "global-warming.jpg",
+    "tuits": ""
+  },
+  {
+    "_id": 234,
+    "topic": "",
+    "userName": "CNN",
+    "time": "1 day",
+    "title": "Opinion: Are geese going to take over the world?",
+    "image": "geese.jpg",
+    "tuits": "123K"
+  },
+  {
+    "_id": 345,
+    "topic": "Home Equipment",
+    "userName": "",
+    "title": "Chainsaws",
+    "time": "4h",
+    "image": "chainsaw.jpg",
+    "tuits": "122K"
+  },
+  {
+    "_id": 456,
+    "topic": "Self Defense",
+    "userName": "",
+    "title": "Machine Guns",
+    "time": "5h",
+    "image": "rambo.webp",
+    "tuits": "120K"
+  }
+]
