@@ -11,7 +11,7 @@ const WhoToFollowListItem = ({who}) => {
             <div className="flex-grow-1 px-xxl-3 px-xl-3">
                 <div className="fw-bold">
                     {who.userName}
-                    <FontAwesomeIcon icon={faCheckCircle} className="p-1" />
+                    <FontAwesomeIcon icon={faCheckCircle} className="p-1" color={"blue"} />
                 </div>
                 <div className="text-secondary">@{who.handle}</div>
             </div>

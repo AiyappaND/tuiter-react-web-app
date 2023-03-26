@@ -22,7 +22,7 @@ const PostSummaryItem = (
                             {post.title}
                         </div>
                         <div className="text-secondary">
-                            {post.tuits}
+                            {post.retuits}
                         </div>
                     </div>
                     <div className="col-3">
