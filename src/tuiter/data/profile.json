@@ -1,0 +1,8 @@
+{
+  "firstName": "CNN", "lastName": "Official", "handle": "@cnbcofficial",
+  "profilePicture": "/images/logo-fake2.jpg", 	"bannerPicture": "/images/banner-2.jpg",
+  "bio": "The most accurate news site ever in the history of all news to get your news. (we execute journalists who don't meet our integrity standards)",
+  "website": "https://www.theonion.com/",
+  "location": "Chile",	"dateOfBirth": "1/1/1000",	"dateJoined": "4/2000",
+  "followingCount": 123,	"followersCount": 456
+}
