@@ -4,7 +4,6 @@ import NavigationSidebar from "./navigation-sidebar";
 import WhoToFollowList from "./who-to-follow-list";
 import HomePostSummaryList from "./home-post-summary-list";
 import {Routes, Route} from "react-router";
-import PostSummaryList from "./post-summary-list";
 import whoReducer
     from "./reducers/who-reducer";
 import tuitsReducer from "./tuits/tuits-reducer";
