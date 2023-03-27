@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 import {faArrowLeft, faCalendar, faCalendarAlt, faMap} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
-const ViewProfileComponent = () => {
+const ProfileComponent = () => {
 
     const profile = useSelector(state => state.profile)
 
@@ -56,4 +56,4 @@ const ViewProfileComponent = () => {
     )
 }
 
-export default ViewProfileComponent
+export default ProfileComponent
