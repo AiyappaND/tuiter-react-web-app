@@ -1,12 +1,16 @@
 import React from "react";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faCommentDots} from "@fortawesome/free-regular-svg-icons";
-import {faRetweet, faHeart, faCheckCircle, faShare} from "@fortawesome/free-solid-svg-icons"
+import {faRetweet, faHeart, faCheckCircle, faShare, faThumbsDown} from "@fortawesome/free-solid-svg-icons"
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "../tuits/tuits-reducer";
+import {deleteTuitThunk, updateTuitThunk} from "../../services/tuits-thunks";
 
-const HomePostSummaryItem = ({tuit}) => {
+const TuitItem = ({tuit}) => {
     const liked = {
+        color: "",
+    };
+
+    const disliked = {
         color: "",
     };
 
@@ -14,9 +18,13 @@ const HomePostSummaryItem = ({tuit}) => {
         liked.color = "red"
     }
 
+    if(tuit.disliked === true) {
+        disliked.color = "blue"
+    }
+
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
 
     return(
@@ -42,10 +50,24 @@ const HomePostSummaryItem = ({tuit}) => {
                     </div>
 
                     <div className="row flex-fill">
-                        <div className="col-3"><FontAwesomeIcon icon={faHeart} className="p-1" {...liked} />{tuit.likes}</div>
-                        <div className="col-3"><FontAwesomeIcon icon={faCommentDots} className="p-1"/>{tuit.replies}</div>
-                        <div className="col-3"><FontAwesomeIcon icon={faRetweet} className="p-1"/>{tuit.retuits}</div>
-                        <div className="col-3">
+
+                        <div className="col-2"><FontAwesomeIcon icon={faHeart} onClick={() => dispatch(updateTuitThunk({
+                            ...tuit,
+                            likes: tuit.liked? tuit.likes - 1: tuit.likes + 1,
+                            liked: !tuit.liked
+                        }))} className="p-1" {...liked} />{tuit.likes}</div>
+
+                        <div className="col-2"><FontAwesomeIcon icon={faThumbsDown} onClick={() => dispatch(updateTuitThunk({
+                            ...tuit,
+                            dislikes: tuit.disliked? tuit.dislikes - 1: tuit.dislikes + 1,
+                            disliked: !tuit.disliked
+                        }))} className="p-1" {...disliked} />{tuit.dislikes}</div>
+
+                        <div className="col-2"><FontAwesomeIcon icon={faCommentDots} className="p-1"/>{tuit.replies}</div>
+
+                        <div className="col-2"><FontAwesomeIcon icon={faRetweet} className="p-1"/>{tuit.retuits}</div>
+
+                        <div className="col-2">
                             <FontAwesomeIcon icon={faShare} className="p-1"/>
                         </div>
                     </div>
@@ -54,4 +76,4 @@ const HomePostSummaryItem = ({tuit}) => {
         </li>
     );
 };
-export default HomePostSummaryItem;
+export default TuitItem;

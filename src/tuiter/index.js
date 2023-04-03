@@ -2,7 +2,7 @@ import React from "react";
 import ExploreComponent from "./explore-component";
 import NavigationSidebar from "./navigation-sidebar";
 import WhoToFollowList from "./who-to-follow-list";
-import HomePostSummaryList from "./home-post-summary-list";
+import TuitsList from "./tuits-list";
 import {Routes, Route} from "react-router";
 import whoReducer
     from "./reducers/who-reducer";
@@ -14,7 +14,7 @@ import ProfileComponent from "./profile-component";
 import profileReducer from "./reducers/profile-reducer";
 import EditProfile from "./profile-component/edit-profile";
 const store = configureStore(
-    {reducer: {who: whoReducer, tuits: tuitsReducer, profile: profileReducer}});
+    {reducer: {who: whoReducer, tuitsData: tuitsReducer, profile: profileReducer}});
 
 function Tuiter() {
     return (
@@ -26,7 +26,7 @@ function Tuiter() {
                     </div>
                     <div className="col-xxl-6 col-xl-6 col-lg-7 col-md-10 col-sm-10 col-10 p-1">
                         <Routes>
-                            <Route path="/"    element={<HomePostSummaryList/>}/>
+                            <Route path="/"    element={<TuitsList/>}/>
                             <Route path="explore" element={<ExploreComponent/>}/>
                             <Route path="profile" element={<ProfileComponent/>}/>
                             <Route path="edit-profile" element={<EditProfile/>}/>
